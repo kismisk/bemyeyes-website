@@ -1,0 +1,7 @@
+Title: Kirby
+----
+Author: Bastian Allgeier
+----
+Description: Kirby is awesome
+----
+Keywords: kirby, cms, kirbycms, php, filesystem
