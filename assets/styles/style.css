@@ -130,82 +130,82 @@ form {
 @media only screen and (max-width: 1180px) {
   /* line 149, ../sass/style.scss */
   #bme-logo {
-    left: 0px; } }
+    left: 0px; }
+
+  /* line 152, ../sass/style.scss */
+  #signup-ribbon {
+    display: none; } }
 @media only screen and (max-width: 767px) {
-  /* line 155, ../sass/style.scss */
+  /* line 158, ../sass/style.scss */
   #bottom h1, #bottom h2, #bottom h3, #middle h2 {
     text-align: left;
     font-size: 35px;
     line-height: 1em;
     padding-bottom: 15px; } }
-/* line 164, ../sass/style.scss */
+/* line 167, ../sass/style.scss */
 .signup-wrapper {
   display: none; }
 
 @media only screen and (max-width: 940px) {
-  /* line 167, ../sass/style.scss */
+  /* line 170, ../sass/style.scss */
   .signup-wrapper {
     display: block;
     background: #2fa7d0;
     padding: 15px;
     text-align: center;
     text-transform: uppercase; }
-    /* line 173, ../sass/style.scss */
+    /* line 176, ../sass/style.scss */
     .signup-wrapper .row a {
       color: #fff; }
 
-  /* line 179, ../sass/style.scss */
-  a#signup-ribbon img {
-    display: none; }
-
-  /* line 182, ../sass/style.scss */
+  /* line 183, ../sass/style.scss */
   #top {
     padding-top: 15px; }
 
-  /* line 185, ../sass/style.scss */
+  /* line 186, ../sass/style.scss */
   #top nav {
     margin-top: 0px; }
 
-  /* line 193, ../sass/style.scss */
+  /* line 194, ../sass/style.scss */
   li.toggle-topbar {
     width: 100% !important; }
 
-  /* line 197, ../sass/style.scss */
+  /* line 198, ../sass/style.scss */
   h1 {
     font-size: 32px;
     line-height: 1.2em;
     text-align: left; }
 
-  /* line 203, ../sass/style.scss */
+  /* line 204, ../sass/style.scss */
   h2 {
     font-size: 24px;
     line-height: .8em;
     text-align: left; }
 
-  /* line 209, ../sass/style.scss */
+  /* line 210, ../sass/style.scss */
   h3 {
     font-size: 21px;
     line-height: 1.2em;
     text-align: left; } }
-/* line 219, ../sass/style.scss */
+/* line 220, ../sass/style.scss */
 .top-bar ul > li.name {
   display: none; }
 
-/* line 223, ../sass/style.scss */
+/* line 224, ../sass/style.scss */
 #top nav ul li.toggle-topbar a {
   padding: 0 !important; }
 
 @media only screen and (max-width: 940px) {
-  /* line 230, ../sass/style.scss */
+  /* line 231, ../sass/style.scss */
   .top-bar.expanded ul li.toggle-topbar a {
     /*		content: url(../images/nav-mobile.png);
     		height: 30px;
     		width:30px;*/ }
-    /* line 234, ../sass/style.scss */
+    /* line 235, ../sass/style.scss */
     .top-bar.expanded ul li.toggle-topbar a:hover {
       border-bottom: none; }
 
-  /* line 238, ../sass/style.scss */
+  /* line 239, ../sass/style.scss */
   .top-bar ul > li.name {
     background: none;
     display: list-item; } }

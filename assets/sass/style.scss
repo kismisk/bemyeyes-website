@@ -149,6 +149,9 @@ form {
 	#bme-logo {
 		left:0px;	
 	}
+	#signup-ribbon {
+		display: none;
+	}	
 }
 
 @media only screen and (max-width: 767px) {
@@ -176,9 +179,7 @@ form {
 		}
 	}
 	
-	a#signup-ribbon img {
-		display: none;
-	}
+	
 	#top {
 		padding-top: 15px;
 	}
