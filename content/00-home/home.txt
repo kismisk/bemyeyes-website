@@ -1,0 +1,11 @@
+Title: Home
+
+----
+
+Text: 
+
+The non-profit app Be My Eyes will connect blind people with a community of normal sighted volunteers. Both parties install the app and when the blind person needs help he/she uses the app which calls out to the network of volunteers and sends a live video stream from the blind person’s device to the screen of the volunteer’s device. This way the volunteers can “be the blind person's eyes” over the smartphone – therefore we’ve named it Be My Eyes!
+
+Want to know more about (link: /the-story text: the story behind Be My Eyes?)
+
+We are currently developing a prototype of the app – if you want more updates about our progress take a look at our (link: https://facebook.com/bemyeyes.org text: Facebook page)
