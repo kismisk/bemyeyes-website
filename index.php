@@ -3,7 +3,7 @@
 /*
 
 ---------------------------------------
-Document root of your site
+Document root of your site :)
 ---------------------------------------
 this should be identical with the directory 
 in which your index.php is located
