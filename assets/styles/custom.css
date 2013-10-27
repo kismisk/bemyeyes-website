@@ -16,7 +16,17 @@
 	top: -13px;
 	left: 0px;
 }
-#fb, #twitter {
+#fb img, #twitter img {
 	width: 24px;
 	height: 24px;
+	position: relative;
+}
+#fb img {top: 6px;}
+#twitter img {
+	top: 12px;
+	right: 11px;
+}
+
+#top nav ul li a#twitter:hover {
+	border-bottom: none;
 }
