@@ -52,7 +52,7 @@
 	
 	<div id="top" class="wrapping">
 		<div class="row">
-		  <div class="eight mobile-three columns">		  
+		  <div class="nine mobile-three columns">		  
 		    <nav class="top-bar">
 		    <ul>
 		    	<li class="toggle-topbar"><a href="#"></a></li>
@@ -75,13 +75,16 @@
 		          	<a href="http://bemyeyes.us6.list-manage1.com/subscribe?u=e7bc4d93c409f117307da5764&id=58cbf3aea9" onClick="trackOutboundLink(this, 'Outbound Links', 'Mailchimp signup menu'); return false;" title="sign up for the private beta">Sign Up</a>
 		          </li>		      
 		          <li>
-		            <a id="fb" onClick="trackOutboundLink(this, 'Outbound Links', 'Facebook icon'); return false;" href="http://www.facebook.com/bemyeyes.org"><img src="<?php echo url('assets/images/facebook-logo.png') ?>" alt="facebook page" /></a>
+		            <a id="fb" onClick="trackOutboundLink(this, 'Outbound Links', 'Facebook icon'); return false;" href="http://www.facebook.com/bemyeyes.org"><img src="<?php echo url('assets/images/facebook.png') ?>" alt="facebook page" /></a>
+		          </li>
+		          <li>
+		            <a id="twitter" onClick="trackOutboundLink(this, 'Outbound Links', 'Twitter icon'); return false;" href="http://www.twitter.com/bemyeyes"><img src="<?php echo url('assets/images/twitter.png') ?>" alt="twitter page" /></a>
 		          </li>
 		        </ul>
 		      </section>
 		    </nav>
 		  </div>
-		  <div class="four mobile-one columns">
+		  <div class="three mobile-one columns">
 			<img id="bme-logo" src="<?php echo url('assets/images/bemyeyes-logo.png') ?>" alt="bemyeyes logo" />
 		  </div>
 		</div>

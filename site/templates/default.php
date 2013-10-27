@@ -8,10 +8,9 @@
   		?>
   		
   		<div class="six columns mockup">
-  			<a href="https://vimeo.com/couchmode/drobe/videos/sort:date/63467791"><img style="position: relative;
-  			top: -50px" src="<?php echo url('assets/images/howitworks.png') ?>" alt="Two pictures showing how it works" /></a>
+  			<a href="https://vimeo.com/couchmode/drobe/videos/sort:date/63467791"><img src="<?php echo url('assets/images/howitworks.png') ?>" alt="Two pictures showing how it works" /></a>
   		</div>
-  		<div class="six columns">
+  		<div class="six columns hero">
   			<h1>Connecting</h1>
   			<h1>blind & sighted</h1>
   			<h3>Make a difference, join a network helping<br>

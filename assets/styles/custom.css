@@ -1,3 +1,22 @@
+/* This is an epic fail: I'm having troubles recompiling the sass file (this is a legacy version of foundation framework and I can't downgrade some dependencies in my preprocessors... long story short I'm using this css to add/override some stuff the lame way :|  */
+
 .top-bar ul > li a:not(.button) {
 	padding: 0 9px !important;
+}
+
+.mockup img {
+	position: relative;
+	top: -50px;
+}
+
+.hero {
+	padding-top: 20px;
+}
+#top #bme-logo {
+	top: -13px;
+	left: 0px;
+}
+#fb, #twitter {
+	width: 24px;
+	height: 24px;
 }
