@@ -7,7 +7,7 @@
       if ($page->isHomePage()) :
       ?>
       <div class="six columns mockup">
-        <a href="https://vimeo.com/couchmode/drobe/videos/sort:date/63467791" class="fancybox"><img src="http://www.bemyeyes.org/assets/images/app-screenshot_with-play.png" alt="Illustration of iPhone app and video link"></a>
+        <a href="https://vimeo.com/couchmode/drobe/videos/sort:date/63467791" class="fancybox"><img class="mockup" src="http://www.bemyeyes.org/assets/images/howitworks.png" alt="Two pictures showing how bemyeyes works: blind user requests assistance with an iPhone and sighted user receives a video streaming and help the blind user"></a>
       </div>
       <div class="six columns">
         <h1>Connecting</h1>
