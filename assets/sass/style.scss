@@ -145,7 +145,7 @@ form {
 	@include background-image(linear-gradient($light-color, $dark-color));
 }
 
-@media only screen and (max-width: 1180px) {
+@media only screen and (max-width: 940px) { /*@media only screen and (max-width: 1180px) {*/
 	#bme-logo {
 		left:0px;	
 	}
@@ -165,7 +165,7 @@ form {
 }
 
 .signup-wrapper {display: none;}
-@media only screen and (max-width: 940px) {
+@media only screen and (max-width: 940px) { /*@media only screen and (max-width: 940px) {*/
 	
 	.signup-wrapper {
 		display: block;

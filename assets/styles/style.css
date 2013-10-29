@@ -127,7 +127,7 @@ form {
   #bottom h1, #bottom h2, #bottom h3 {
     color: white; }
 
-@media only screen and (max-width: 1180px) {
+@media only screen and (max-width: 940px) {
   /* line 149, ../sass/style.scss */
   #bme-logo {
     left: 0px; }
@@ -146,7 +146,7 @@ form {
 .signup-wrapper {
   display: none; }
 
-@media only screen and (max-width: 940px) {
+@media only screen and (max-width: 940px) { /*@media only screen and (max-width: 940px) {*/
   /* line 170, ../sass/style.scss */
   .signup-wrapper {
     display: block;

@@ -87,6 +87,27 @@
 
   <!-- Application Javascript, safe to override -->
   <script src="javascripts/foundation/app.js"></script>
+
+  
+<?php if ($page->isHomePage()) : ?>
+  	<script src="javascripts/jquery.fancybox.pack.js?v=2.1.5"></script>
+  	<script src="javascripts/jquery.fancybox-media.js?v=1.0.6"></script>
+  	<script>
+
+	$('.fancybox').attr('rel', 'media-gallery').fancybox({
+					openEffect : 'none',
+					closeEffect : 'none',
+					prevEffect : 'none',
+					nextEffect : 'none',
+
+					arrows : false,
+					helpers : {
+						media : {},
+						buttons : {}
+					}});
+
+  	</script>
+ <?php endif; ?>
   
   <script type="text/javascript">
   
