@@ -56,7 +56,7 @@
 	
 	<div id="top" class="wrapping">
 		<div class="row">
-		  <div class="eight mobile-three columns">		  
+		  <div class="nine mobile-three columns">		  
 		    <nav class="top-bar">
 		    <ul>
 		    	<li class="toggle-topbar"><a href="#"></a></li>
@@ -79,13 +79,16 @@
 		          	<a id="signup-ribbon" class="fancybox fancybox.iframe" href="assets/sign-up-form.html" title="sign up for the private beta">Sign Up</a>
 		          </li>		      
 		          <li>
-		            <a id="fb" onClick="trackOutboundLink(this, 'Outbound Links', 'Facebook icon'); return false;"  href="http://www.facebook.com/bemyeyes.org" target="_blank"><img src="<?php echo url('assets/images/facebook-logo.png') ?>" alt="facebook page" /></a>
+		            <a id="fb" onClick="trackOutboundLink(this, 'Outbound Links', 'Facebook icon'); return false;"  href="http://www.facebook.com/bemyeyes.org" target="_blank"><img src="<?php echo url('assets/images/facebook.png') ?>" alt="facebook page" /></a>
+		          </li>
+		          <li>
+		            <a id="twitter" onClick="trackOutboundLink(this, 'Outbound Links', 'Twitter icon'); return false;" href="http://www.twitter.com/bemyeyes"><img src="<?php echo url('assets/images/twitter.png') ?>" alt="twitter page" /></a>		          	
 		          </li>
 		        </ul>
 		      </section>
 		    </nav>
 		  </div>
-		  <div class="four mobile-one columns">
+		  <div class="three mobile-one columns">
 			<a href="/"><img id="bme-logo" src="<?php echo url('assets/images/bemyeyes-logo.png') ?>" alt="bemyeyes logo" /></a>
 		  </div>
 		</div>
