@@ -45,18 +45,21 @@
 </head>
 <body class="body">
 	
-	<a id="signup-ribbon" class="fancybox fancybox.iframe" href="assets/sign-up-form.html"><img src="<?php echo url('assets/images/signup.png') ?>" alt="sign up for the private beta" /></a>
-	
-	<div class="signup-wrapper">
+<?php if(!empty($_GET['OkLSgV1Xo0']) AND $_GET['OkLSgV1Xo0'] == 'true') : ?>
+	<a id="signup-ribbon"  href="/sign-up?utm_source=signup&utm_medium=website&utm_campaign=ribbon_signup"><img src="<?php echo url('assets/images/signup2.png') ?>" alt="sign up for the private beta" /></a>
+<?php else : ?>
+    <a id="signup-ribbon"  href="/sign-up?utm_source=signup&utm_medium=website&utm_campaign=ribbon_signup"><img src="<?php echo url('assets/images/signup.png') ?>" alt="sign up for the private beta" /></a>
+<?php endif; ?>
+	<div class="signup-wrapper"<?php if(!empty($_GET['OkLSgV1Xo0']) AND $_GET['OkLSgV1Xo0'] == 'true') echo ' style="background-color: #ff9933"'; ?>>
 		<div class="row">
-			<a class="fancybox fancybox.iframe" href="assets/sign-up-form.html">Sign up for the private beta</a> 
+			<a href="/sign-up?utm_source=signup&utm_medium=website&utm_campaign=menu_signup">Sign up for the private beta</a> 
 		</div>
 	</div>
 	
 	
 	<div id="top" class="wrapping">
 		<div class="row">
-		  <div class="nine mobile-three columns">		  
+		  <div class="eight mobile-three columns">		  
 		    <nav class="top-bar">
 		    <ul>
 		    	<li class="toggle-topbar"><a href="#"></a></li>
@@ -75,20 +78,17 @@
 		        	<?php foreach($pages->visible() AS $p): ?>
 		        	<li><a<?php echo ($p->isOpen()) ? ' class="active"' : '' ?> href="<?php echo $p->url() ?>"><?php echo html($p->title()) ?></a></li>
 		        	<?php endforeach ?>
+		          <!--<li>
+		          	<a id="signup-ribbon" class="fancybox fancybox.iframe" href="/assets/sign-up-form.html?utm_source=signup&utm_medium=website&utm_campaign=menu_signup" title="sign up for the private beta">Sign Up</a>
+		          </li>-->		      
 		          <li>
-		          	<a id="signup-ribbon" class="fancybox fancybox.iframe" href="assets/sign-up-form.html" title="sign up for the private beta">Sign Up</a>
-		          </li>		      
-		          <li>
-		            <a id="fb" onClick="trackOutboundLink(this, 'Outbound Links', 'Facebook icon'); return false;"  href="http://www.facebook.com/bemyeyes.org" target="_blank"><img src="<?php echo url('assets/images/facebook.png') ?>" alt="facebook page" /></a>
-		          </li>
-		          <li>
-		            <a id="twitter" onClick="trackOutboundLink(this, 'Outbound Links', 'Twitter icon'); return false;" href="http://www.twitter.com/bemyeyes"><img src="<?php echo url('assets/images/twitter.png') ?>" alt="twitter page" /></a>		          	
+		            <a id="fb" onClick="trackOutboundLink(this, 'Outbound Links', 'Facebook icon'); return false;"  href="http://www.facebook.com/bemyeyes.org" target="_blank"><img src="<?php echo url('assets/images/facebook-logo.png') ?>" alt="facebook page" /></a>
 		          </li>
 		        </ul>
 		      </section>
 		    </nav>
 		  </div>
-		  <div class="three mobile-one columns">
+		  <div class="four mobile-one columns">
 			<a href="/"><img id="bme-logo" src="<?php echo url('assets/images/bemyeyes-logo.png') ?>" alt="bemyeyes logo" /></a>
 		  </div>
 		</div>
