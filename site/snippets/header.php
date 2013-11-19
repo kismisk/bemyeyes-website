@@ -45,11 +45,11 @@
 </head>
 <body class="body">
 	
-	<a id="signup-ribbon" class="fancybox fancybox.iframe" href="assets/sign-up-form.html"><img src="<?php echo url('assets/images/signup.png') ?>" alt="sign up for the private beta" /></a>
+	<a id="signup-ribbon" class="fancybox fancybox.iframe" href="/assets/sign-up-form.html?utm_source=signup&utm_medium=website&utm_campaign=ribbon_signup"><img src="<?php echo url('assets/images/signup.png') ?>" alt="sign up for the private beta" /></a>
 	
 	<div class="signup-wrapper">
 		<div class="row">
-			<a class="fancybox fancybox.iframe" href="assets/sign-up-form.html">Sign up for the private beta</a> 
+			<a class="fancybox fancybox.iframe" href="/assets/sign-up-form.html?utm_source=signup&utm_medium=website&utm_campaign=menu_signup">Sign up for the private beta</a> 
 		</div>
 	</div>
 	
@@ -76,7 +76,7 @@
 		        	<li><a<?php echo ($p->isOpen()) ? ' class="active"' : '' ?> href="<?php echo $p->url() ?>"><?php echo html($p->title()) ?></a></li>
 		        	<?php endforeach ?>
 		          <li>
-		          	<a id="signup-ribbon" class="fancybox fancybox.iframe" href="assets/sign-up-form.html" title="sign up for the private beta">Sign Up</a>
+		          	<a id="signup-ribbon" class="fancybox fancybox.iframe" href="/assets/sign-up-form.html?utm_source=signup&utm_medium=website&utm_campaign=menu_signup" title="sign up for the private beta">Sign Up</a>
 		          </li>		      
 		          <li>
 		            <a id="fb" onClick="trackOutboundLink(this, 'Outbound Links', 'Facebook icon'); return false;"  href="http://www.facebook.com/bemyeyes.org" target="_blank"><img src="<?php echo url('assets/images/facebook.png') ?>" alt="facebook page" /></a>
